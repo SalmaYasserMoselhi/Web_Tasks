@@ -1,0 +1,9 @@
+p,
+div,
+span {
+    font-family: "Lucida Calligraphy", cursive;
+}
+
+div h1 {
+    text-align: center;
+}

@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    background-color: #183952;
+    text-align: center;
+    height: 80px;
+}
+
+.header h1 {
+    color: #ffffff;
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: #a098c57c;
+    text-align: center;
+    height: 50px;
+}
+
+.nav-link {
+    color: #281d5a;
+    margin: 0 15px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+}
+
+.left-column {
+    width: 20%;
+    vertical-align: top;
+    background-color: #a098c57c;
+    padding: 15px;
+}
+
+.middle-column {
+    width: 50%;
+    vertical-align: top;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.right-column {
+    width: 30%;
+    vertical-align: top;
+    background-color: #a098c57c;
+    padding: 15px;
+}
+
+.footer {
+    background-color: #183952;
+    text-align: center;
+    height: 60px;
+    padding: 10px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: underline;
+}
+
+.login-box {
+    border: 2px solid #333;
+    padding: 15px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.login-input {
+    width: 90%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.social-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-section h3 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.video-container {
+    border: 2px solid #333;
+    padding: 5px;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.video-container p {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.profile-title {
+    color: #281d5a;
+    text-align: center;
+}
+
+h2,
+h3 {
+    color: #281d5a;
+}
+
+.profile-list {
+    line-height: 1.8;
+}
+
+.photo-box {
+    text-align: center;
+    background-color: white;
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.photo-box p {
+    margin: 5px 0;
+}
+
+.photo-box img {
+    margin-top: 10px;
+}
+
+.news-section {
+    background-color: white;
+    padding: 15px;
+    min-height: 200px;
+}
+
+.news-section h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.news-section p {
+    font-size: 14px;
+}

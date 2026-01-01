@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../styles/form-style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Registration Form</h1>
+
+        <form action="Thankyou.html" method="get">
+
+            <div class="form-group">
+                <label for="firstname" class="required">First Name</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+
+            <div class="form-group">
+                <label for="lastname" class="required">Last Name</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="required">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </div>
+
+            <div class="form-group">
+                <label for="repeat-password">Repeat Password</label>
+                <input type="password" id="repeat-password" name="repeat-password">
+            </div>
+
+            <div class="form-group">
+                <label for="birthdate">Birth Date</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div>
+
+            <div class="form-group">
+                <label for="userpicture">User Picture</label>
+                <input type="file" id="userpicture" name="userpicture" accept="image/*">
+            </div>
+
+            <fieldset>
+                <legend>Gender</legend>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="gender" value="male"> Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female"> Female
+                    </label>
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <label for="faculty">Faculty</label>
+                <select id="faculty" name="faculty">
+                    <option value="">Select Faculty</option>
+                    <option value="computer-science">Computer Science</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="medicine">Medicine</option>
+                    <option value="business">Business</option>
+                    <option value="arts">Arts</option>
+                    <option value="science">Science</option>
+                </select>
+            </div>
+
+            <fieldset>
+                <legend>Interests</legend>
+                <div class="checkbox-group">
+                    <label>
+                        <input type="checkbox" name="interests" value="programming"> Programming
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interests" value="reading"> Reading
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interests" value="swimming"> Swimming
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interests" value="gaming"> Gaming
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interests" value="music"> Music
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interests" value="traveling"> Traveling
+                    </label>
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <label for="about">About You</label>
+                <textarea id="about" name="about" placeholder="Tell us about yourself..."></textarea>
+            </div>
+
+            <div class="terms-group">
+                <label>
+                    <input type="checkbox" name="terms" value="agreed"> I agree to the terms and conditions
+                </label>
+            </div>
+
+            <div class="button-group">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

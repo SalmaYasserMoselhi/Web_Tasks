@@ -1,0 +1,68 @@
+/*
+    What is the difference between Em and Rem units?
+    em: Relative to the font-size of the parent element.
+        If parent is 16px and you set 2em, it becomes 32px.
+        em values compound (nested elements multiply).
+    
+    rem: Relative to the font-size of the root element (html).
+        Always based on the root, no compounding.
+        More predictable for consistent sizing.
+*/
+
+/* 1- Select p elements and make them red */
+p {
+    color: red;
+}
+
+/* 2- Select p and div elements */
+p,
+div {
+    font-weight: bold;
+}
+
+/* 3- Select p with class mainClass direct child for div with id myDiv and make it styled */
+div#mydiv>p.mainClass {
+    color: blue;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+/* 4- Select all p inside div and style them */
+div p {
+    border-left: 3px solid green;
+    padding-left: 10px;
+}
+
+/* 5- Select input with type text element with class myClass */
+input[type="text"].myClass {
+    border: 2px solid purple;
+    padding: 10px;
+    background-color: #f0f0ff;
+}
+
+/* 6- Select span elements after div */
+div+span { /*this will be applied if it's a the first sibling*/
+    color: orange;
+    font-weight: bold;
+}
+
+/* To select ALL span elements after div (general sibling) */
+div~span {
+    text-decoration: underline;
+    font-weight: bold;
+    color: aqua;
+}
+
+/* 7- Select p with class myClass */
+p.myClass {
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+/* 8- Select div with id myDiv */
+div#mydiv {
+    border: 2px dashed #281d5a;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
